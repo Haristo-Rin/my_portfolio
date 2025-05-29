@@ -1,0 +1,458 @@
+.head {
+  width: 100vw;
+}
+.head__rov {
+  display: flex;
+  width: inherit;
+}
+.head__rov--logo {
+  padding-left: 60px;
+  padding-top: 36px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #c7c7c7;
+}
+.head__rov--nav {
+  padding-left: 927px;
+  font-family: var(--third-family);
+  font-size: 16px;
+}
+.head__rov--nav ul {
+  display: flex;
+}
+.head__rov--nav li {
+  padding-right: 32px;
+  padding-top: 36px;
+  list-style-type: none;
+}
+.head__rov--nav a {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+.head__content {
+  display: flex;
+}
+.head__content--info {
+  padding-left: 108px;
+  width: 544px;
+}
+.head__content--info-h2 {
+  margin-top: 230px;
+  font-family: var(--second-family);
+  font-size: 101px;
+  width: 544px;
+  height: 182px;
+  color: #ffffff;
+  line-height: 90%;
+}
+.head__content--info-p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+}
+.head__content--info-contact ul {
+  padding-top: 40px;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+.head__content--info-contact li {
+  padding-right: 16px;
+}
+.head__content--info-contact-1 {
+  display: flex;
+  border-radius: 100px;
+  padding: 20px 6px 20px 24px;
+  width: 187px;
+  height: 54px;
+  background: #d3e97a;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000;
+}
+.head__content--info-contact-1-img {
+  padding-left: 12px;
+}
+.head__content--info-contact-2 {
+  border-radius: 100px;
+  width: 54px;
+  height: 54px;
+  background: #222;
+  margin-left: 16px;
+  padding: 14px;
+}
+.head__content--info-contact-3 {
+  border-radius: 100px;
+  width: 54px;
+  height: 54px;
+  background: #222;
+  margin-left: 16px;
+  padding: 14px;
+}
+.head__content--img {
+  padding-left: 187px;
+  padding-top: 67px;
+  padding-bottom: 80px;
+}
+
+.aboutme {
+  margin-top: 122px;
+  display: flex;
+}
+.aboutme-h2 {
+  margin-left: 108px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 101px;
+  line-height: 90%;
+  color: #fff;
+}
+.aboutme-abo {
+  margin-left: 213px;
+}
+.aboutme-abo-big {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  color: #fff;
+}
+.aboutme-abo-text {
+  margin-top: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+}
+.aboutme-abo-btn {
+  margin-top: 53px;
+  background-color: #000;
+  border: none;
+}
+
+.featured {
+  padding-left: 105px;
+}
+.featured-text {
+  box-sizing: border-box;
+  width: 600px;
+  height: 138px;
+}
+.featured-text-h2 {
+  padding-top: 80px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 100%;
+  color: #fff;
+}
+.featured-text-p {
+  padding-top: 5px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+}
+.featured-block {
+  box-sizing: border-box;
+  width: 1224px;
+  height: 600px;
+  display: flex;
+  margin-top: 120px;
+}
+.featured-block-end {
+  margin-bottom: 80px;
+}
+.featured-block-img {
+  border-radius: 12px;
+  width: 600px;
+  height: 600px;
+  background: #1a1a1a;
+}
+.featured-block-img-p {
+  margin-top: 16px;
+  margin-left: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 100px;
+  padding: 8px 16px;
+  width: 145px;
+  height: 37px;
+  background: #0a0a0a;
+}
+.featured-block-img-p-2 {
+  width: 99px;
+  margin-top: 16px;
+  margin-left: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 100px;
+  padding: 8px 16px;
+  height: 37px;
+  background: #0a0a0a;
+}
+.featured-block-img-img {
+  margin-left: 56px;
+  margin-top: 94px;
+  border-radius: 12px;
+  width: 488px;
+  height: 306px;
+}
+.featured-block-info {
+  box-sizing: border-box;
+  width: 624px;
+  height: 480px;
+  padding-left: 48px;
+  padding-top: 60px;
+}
+.featured-block-info-h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  color: #fff;
+}
+.featured-block-info-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+  padding-top: 16px;
+}
+.featured-block-info-pi {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.featured-block-info-in {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.featured-block-info-in-info {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff;
+}
+.featured-block-info-in-info2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #c7c7c7;
+}
+.featured-block-info-btns {
+  display: flex;
+}
+.featured-block-info-btn {
+  background-color: #000;
+  margin-top: 48px;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #d3e97a;
+  display: flex;
+}
+.featured-block-info-btn u {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  margin-top: 55px;
+}
+.footer-lets {
+  box-sizing: border-box;
+  width: 600px;
+  height: 611px;
+  margin-left: 108px;
+}
+.footer-lets-h2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 100%;
+  color: #fff;
+  width: 600px;
+  height: 76px;
+}
+.footer-lets-p {
+  margin-top: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+}
+.footer-lets-p u {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  text-decoration-color: #D3E97A;
+}
+.footer-lets-pc {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #c7c7c7;
+  margin-top: 359px;
+}
+.footer-lets ul {
+  padding-top: 44px;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 28px;
+}
+.footer-lets li {
+  padding-right: 24px;
+}
+.footer-con-form-name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #c7c7c7;
+  margin-top: 55px;
+  margin-left: 24px;
+}
+.footer-con-form-in {
+  margin-top: 8px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 16px;
+  width: 600px;
+  height: 51px;
+  background: #1a1a1a;
+}
+.footer-con-form-mes {
+  margin-left: 24px;
+  margin-top: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 16px;
+  width: 600px;
+  height: 156px;
+  background: #1a1a1a;
+}
+.footer-con-btn {
+  margin-left: 24px;
+  background-color: #000;
+  border: none;
+  margin-top: 40px;
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  background: #000;
+}
+
+.on-foot {
+  margin-top: 416px;
+}
+
+:root {
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Bebas Neue", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Roboto", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
