@@ -87,9 +87,9 @@
                     display: flex;
                     border-radius: 100px;
                     padding: 20px 6px 20px 24px;
-                    width: 187px;
+                    width: 154px;
                     height: 54px;
-                    background: #d3e97a;
+                    background: #9c0610;
                     font-family: var(--font-family);
                     font-weight: 700;
                     font-size: 16px;
@@ -99,6 +99,11 @@
 
                     &-img {
                         padding-left: 12px;
+                    }
+
+                    a {
+                        color: #000;
+                        text-decoration: none;
                     }
 
                 }
